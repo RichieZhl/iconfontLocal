@@ -1,0 +1,37 @@
+@font-face {font-family: "svgtofont";
+  src: url('svgtofont.eot?t=1657185732641'); /* IE9*/
+  src: url('svgtofont.eot?t=1657185732641#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("svgtofont.woff2?t=1657185732641") format("woff2"),
+  url("svgtofont.woff?t=1657185732641") format("woff"),
+  url('svgtofont.ttf?t=1657185732641') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('svgtofont.svg?t=1657185732641#svgtofont') format('svg'); /* iOS 4.1- */
+}
+
+[class^="svgtofont-"], [class*=" svgtofont-"] {
+  font-family: 'svgtofont' !important;
+  font-size: 16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.svgtofont-acorn:before { content: "\e001"; }
+.svgtofont-contact:before { content: "\e005"; }
+.svgtofont-fire:before { content: "\e002"; }
+.svgtofont-forest:before { content: "\e003"; }
+.svgtofont-guqing:before { content: "\e00c"; }
+.svgtofont-home:before { content: "\e004"; }
+.svgtofont-jialiao:before { content: "\e00d"; }
+.svgtofont-session:before { content: "\e006"; }
+.svgtofont-weixin:before { content: "\e00e"; }
+
+$svgtofont-acorn: "\e001";
+$svgtofont-contact: "\e005";
+$svgtofont-fire: "\e002";
+$svgtofont-forest: "\e003";
+$svgtofont-guqing: "\e00c";
+$svgtofont-home: "\e004";
+$svgtofont-jialiao: "\e00d";
+$svgtofont-session: "\e006";
+$svgtofont-weixin: "\e00e";
+
